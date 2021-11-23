@@ -124,3 +124,47 @@ body {
 {
   float: right;
 }
+
+
+.features
+{
+  background: #efefef;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.features .fmain-block
+{
+  position: relative;
+  margin-left:auto;
+  margin-right: auto;
+  width:1050px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.features .block{
+  display: inline-block;
+  width: 320px;
+  height: 190px;
+  text-align: center;
+}
+.features .central-block
+{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.features  img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features h2{
+  margin-bottom: 25px;
+
+}
+
+.features p{
+}
