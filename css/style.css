@@ -5,7 +5,122 @@ body {
   color: #000000;
 
   /*  Пример подключения изображения из папки  img */
-  background-image: url("../img/bg-promo.png");
+  /*background-image: url("../img/bg-promo.png");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center top;*/
+  margin: 0;
+  padding: 0;
+}
+.main-header
+{
+  background:#6451d5;
+  padding-top: 35px;
+  padding-bottom: 80px;
+}
+
+.main-block .main-logo
+{
+  float: left;
+  margin-bottom: 100px;
+}
+.main-header .main-block
+{
+  position: relative;
+  margin-left:auto;
+  margin-right: auto;
+  width:1050px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: url('../img/logo.png') no-repeat  30px 0;
+}
+
+.main-header .main-block ul{
+  padding-left: 350px;
+  padding-right: 0;
+  padding-top:30px;
+  height: 52px;
+  margin:0;
+
+}
+
+
+.main-block li
+{
+  font-family: 'Trebuchet MS';
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.main-block li a{
+  color:white;
+  text-decoration: none;
+  color:white
+}
+
+.main-block li a:hover
+{
+  text-decoration: underline;
+  color:white
+}
+
+.main-block li a:active
+{
+  text-decoration: none;
+  color:#bcb3f2;
+}
+.info
+{
+ margin-top:100px;
+}
+
+.info h1{
+  color:white;
+  line-height: 50px;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  font-size: 45px;
+  width: 423px;
+  margin-bottom:40px ;
+}
+
+.info p
+{
+  color:#bcb3f2;
+  line-height: 30px;
+  font-family: 'Tahoma';
+  font-size:18px;
+  width:302px;
+  margin-bottom: 55px;
+}
+
+.info a{
+  display: block;
+  background: #382d78;
+  width: 320px;
+  color:white;
+  line-height: 24px;
+  font-family: 'Trebuchet MS';
+  font-size:20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.info a:hover{
+  color:white;
+  background: #32286c;
+}
+
+.info a:active
+{
+  color: #8581a1;
+}
+
+.info .phone-logo
+{
+  float: right;
 }
