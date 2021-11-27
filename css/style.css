@@ -11,91 +11,96 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
 .main-header
 {
-  background:#6451d5;
-  padding-top: 35px;
-  padding-bottom: 80px;
+  margin:0;
+  padding-top:35px;
+  padding-left:100px;
+  padding-right:100px;
+  padding-bottom: 120px;
+  background: #6451d5 url('../img/phone.png') no-repeat 510px 190px;
+
 }
 
-.main-block .main-logo
+
+.im-ul-block
 {
-  float: left;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
+  height: 82px;
 }
 .main-header .main-block
 {
-  position: relative;
-  margin-left:auto;
-  margin-right: auto;
-  width:1050px;
   padding-left: 30px;
   padding-right: 30px;
-  background: url('../img/logo.png') no-repeat  30px 0;
 }
-
-.main-header .main-block ul{
-  padding-left: 350px;
-  padding-right: 0;
-  padding-top:30px;
-  height: 52px;
-  margin:0;
-
+.main-header ul
+{ 
+  float:right;
+  margin:0px;
+  margin-top:25px;
+  margin-right: 20px;
 }
-
-
-.main-block li
+ 
+.im-ul-block{margin-bottom: 93px;}
+.main-header ul li 
 {
-  font-family: 'Trebuchet MS';
-  font-size: 16px;
-  font-weight: bold;
   display: inline-block;
-  margin-right: 60px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
-
-.main-block li a{
+.main-header ul li a
+{
   color:white;
-  text-decoration: none;
-  color:white
-}
-
-.main-block li a:hover
-{
-  text-decoration: underline;
-  color:white
-}
-
-.main-block li a:active
-{
-  text-decoration: none;
-  color:#bcb3f2;
-}
-.info
-{
- margin-top:100px;
-}
-
-.info h1{
-  color:white;
-  line-height: 50px;
-  font-family: 'Trebuchet MS';
-  font-weight: bold;
-  font-size: 45px;
-  width: 423px;
-  margin-bottom:40px ;
-}
-
-.info p
-{
-  color:#bcb3f2;
-  line-height: 30px;
-  font-family: 'Tahoma';
   font-size:18px;
-  width:302px;
-  margin-bottom: 55px;
+  line-height: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Trebuchet MS';
+}
+.main-header ul li a:hover
+{
+  text-decoration: underline; 
+  color:white;
+}
+.main-header ul li a:active
+{
+  text-decoration: none;
+  color:#9d93e2;
 }
 
-.info a{
+
+
+
+.main-header .main-textblock
+{
+  width:450px;
+}
+
+.main-textblock .h
+{
+  margin-top: 0;
+  color:white;
+  font-family: 'Trebuchet MS';
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.main-textblock .p-text
+{
+  width:320px;
+  color:#9d93e2;
+  font-family: 'Tahoma';
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.main-textblock .aref
+{
   display: block;
   background: #382d78;
   width: 320px;
@@ -107,64 +112,13 @@ body {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-.info a:hover{
-  color:white;
-  background: #32286c;
+  padding-top: 23px;
+  padding-bottom: 22px;
 }
 
-.info a:active
+.main-textblock .aref:hover{background: #32286c;}
+.main-textblock .aref:active
 {
-  color: #8581a1;
-}
-
-.info .phone-logo
-{
-  float: right;
-}
-
-
-.features
-{
-  background: #efefef;
-  padding-top: 50px;
-  padding-bottom: 40px;
-}
-.features .fmain-block
-{
-  position: relative;
-  margin-left:auto;
-  margin-right: auto;
-  width:1050px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.features .block{
-  display: inline-block;
-  width: 320px;
-  height: 190px;
-  text-align: center;
-}
-.features .central-block
-{
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-
-.features  img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.features h2{
-  margin-bottom: 25px;
-
-}
-
-.features p{
+  background:#32286c;
+  color:#5e5886;
 }
