@@ -122,3 +122,56 @@ body {
   background:#32286c;
   color:#5e5886;
 }
+
+
+
+
+/*------------блок 2-------------------------*/
+.features
+{
+  margin:0;
+  padding-top:50px;
+  padding-left:100px;
+  padding-right:100px;
+  padding-bottom: 50px;
+  background: #efefef;
+}
+.features .f-blocks
+{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.features .f-blocks .block
+{
+  display: inline-block;
+  line-height: 24px;
+  text-align: center;
+  width: 320px;
+  /*margin-left: 30px;*/
+  
+}
+
+
+
+.features .f-blocks .block h2
+{
+  margin-top: 90px;
+  margin-bottom: 25px;
+  font-family: 'Trebuchet MS';
+  font-size: 22px;
+}
+.features .f-blocks .block p
+{
+  color:#747474;
+  font-family: 'Tahoma';
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.b1{background: url('../img/iconadv1.png') no-repeat 130px 0 ;}
+.b2
+{
+  background: url('../img/iconadv2.png') no-repeat 130px 0 ;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.b3{background: url('../img/iconadv3.png') no-repeat 130px 0 ;}
