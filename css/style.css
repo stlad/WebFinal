@@ -19,7 +19,7 @@ body {
   padding-top:35px;
   padding-left:100px;
   padding-right:100px;
-  padding-bottom: 120px;
+  padding-bottom: 90px;
   background: #6451d5 url('../img/phone.png') no-repeat 510px 190px;
 
 }
@@ -175,3 +175,80 @@ body {
   margin-left: 25px;
 }
 .b3{background: url('../img/iconadv3.png') no-repeat 130px 0 ;}
+
+/*------------блок 3-------------------------*/
+
+.education
+{
+  margin:0;
+  padding-top:50px;
+  padding-left:100px;
+  padding-right:100px;
+  padding-bottom: 75px;
+  background: #ffffff;
+
+}
+
+.ed-block
+{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin:0;
+}
+.ed-block h2{
+  font-family: 'Trebuchet MS';
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-top:0;
+  margin-bottom: 60px;
+}
+
+.ed-block table
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 1020px;
+}
+.ed-block table tr:nth-child(1)
+{
+  background: #efefef;
+}
+
+.ed-block table td
+{
+  padding-left: 31px;
+  padding-right: 25px;
+  padding-top: 21px;
+  padding-bottom: 20px;
+  text-align: left;
+  border: 1px solid black;
+  font-family: 'Tahoma';
+  font-size: 18px;
+  line-height: 30px;
+  vertical-align:top;
+
+}
+.ed-block table td:nth-child(1)
+{
+  width:230px;
+}
+
+
+.ed-block table td:nth-child(2)
+{
+  
+  width:136px;
+}
+/*
+.ed-block table td:nth-child(3n)
+{
+  width:545px;
+}*/
+.ed-block table td b
+{
+  font-family:'Trebuchet MS';
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: bold;
+}
