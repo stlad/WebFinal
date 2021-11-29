@@ -252,3 +252,146 @@ body {
   line-height: 24px;
   font-weight: bold;
 }
+
+
+/*------------блок 4-------------------------*/
+.contacts
+{
+  padding-top: 13px;
+  padding-left:100px;
+  padding-right:100px;
+  padding-bottom: 60px;
+  background: #efefef;
+}
+
+.contacts .cont-block
+{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.contacts .cont-block h2
+{
+  margin-bottom: 60px;
+  font-family: 'Trebuchet MS';
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: bold;
+}
+.contacts .login-form
+{
+  display:inline-block;
+  width:600px;
+  margin:0;
+}
+
+.contacts .cont-text
+{
+ float: right;
+  width:300px;
+}
+
+.contacts td
+{
+  padding-bottom: 30px;
+}
+.contacts tr td:nth-child(1)
+{
+  font-weight: bold;
+  font-family: 'Trebuchet MS';
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+  vertical-align: top;
+  padding-top: 20px;
+}
+
+
+.login-form input[type="text"]
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  width: 480px;
+  font-family: 'Tahoma';
+  font-size: 18px;
+  line-height: 24px;
+  border:2px #b2b2b2 solid;
+  color:#404040;
+  border-radius: 5px;
+}
+.login-form input[type="text"]:hover{ border:2px #7f7f7f solid;}
+.login-form input[type="text"]:focus{ border:2px #6451d5 solid;}
+
+.contacts  .human
+{
+  color:#4c4c4c;
+  font-family: 'Tahoma';
+  font-size: 18px;
+  line-height: 24px;
+  margin-left:20px;
+  margin-right:65px;
+}
+
+.login-form textarea
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  width: 480px;
+  font-family: 'Tahoma';
+  font-size: 18px;
+  line-height: 24px;
+  border:2px #b2b2b2 solid;
+  color:#404040;
+  border-radius: 3px;
+  rows:2;
+}
+.contacts .dop{vertical-align: top;}
+
+.login-form input[type="submit"]
+{
+  color:white;
+  background: #382d78;
+  width:510px;
+  padding-top:25px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+  line-height: 24px;
+  border:0px;
+  text-transform: uppercase;
+}
+.login-form input[type="submit"]:hover
+{
+  color:white;
+  background: #32286c;
+}
+.login-form input[type="submit"]:active
+{
+  color:#8581a1;
+  background: #32286c;
+}
+
+.contacts .cont-text h3
+{
+  font-weight: bold;
+  font-family: 'Trebuchet MS';
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.contacts .cont-text p
+{
+  margin-bottom: 30px;
+  font-family: 'Tahoma';
+  font-size: 18px;
+  line-height: 24px;
+  color:#555555;
+  
+}
+
+.contacts .cont-text .warning{margin-top:30px;}
+.contacts .cont-text .warning b{color:black;}
