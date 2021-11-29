@@ -268,6 +268,7 @@ body {
 {
   padding-right: 30px;
   padding-left: 30px;
+  padding-bottom: 0;
 }
 
 .contacts .cont-block h2
@@ -283,19 +284,22 @@ body {
   display:inline-block;
   width:600px;
   margin:0;
+  padding-right: 10px;
 }
 
 .contacts .cont-text
 {
+  text-align: left;
  float: right;
-  width:300px;
+  width:320px;
 }
 
 .contacts td
 {
-  padding-bottom: 30px;
+  padding:0;
+  padding-bottom: 17px;
 }
-.contacts tr td:nth-child(1)
+.contacts .dop/*tr td:nth-child(1)*/
 {
   font-weight: bold;
   font-family: 'Trebuchet MS';
@@ -309,16 +313,16 @@ body {
 
 .login-form input[type="text"]
 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 25px;
-  width: 480px;
+  width: 490px;
   font-family: 'Tahoma';
   font-size: 18px;
   line-height: 24px;
   border:2px #b2b2b2 solid;
   color:#404040;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 .login-form input[type="text"]:hover{ border:2px #7f7f7f solid;}
 .login-form input[type="text"]:focus{ border:2px #6451d5 solid;}
@@ -335,25 +339,23 @@ body {
 
 .login-form textarea
 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 30px;
   padding-left: 25px;
-  width: 480px;
+  width: 490px;
   font-family: 'Tahoma';
   font-size: 18px;
   line-height: 24px;
   border:2px #b2b2b2 solid;
   color:#404040;
-  border-radius: 3px;
-  rows:2;
+  border-radius: 2px;
 }
-.contacts .dop{vertical-align: top;}
 
 .login-form input[type="submit"]
 {
   color:white;
   background: #382d78;
-  width:510px;
+  width:520px;
   padding-top:25px;
   padding-bottom: 25px;
   font-weight: bold;
@@ -380,12 +382,13 @@ body {
   font-family: 'Trebuchet MS';
   font-size: 22px;
   line-height: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  margin-top: 0;
 }
 
 .contacts .cont-text p
 {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   font-family: 'Tahoma';
   font-size: 18px;
   line-height: 24px;
@@ -393,5 +396,6 @@ body {
   
 }
 
-.contacts .cont-text .warning{margin-top:30px;}
+.contacts .cont-text .warning{margin-top:40px; margin-bottom: 0;}
 .contacts .cont-text .warning b{color:black;}
+
